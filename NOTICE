@@ -1,0 +1,19 @@
+Optical-Flow Odometry for a Differential-Drive Robot Using ROS2 and Gazebo
+
+Robot simulation derived from Lucas Mazzetto's gazebo_differential_drive_robot:
+https://github.com/lucasmazzetto/gazebo_differential_drive_robot
+Upstream snapshot: 3e455f8749ca2f01636366d88d0b385b7823b8b5
+Upstream history also credits alexbousso (Docker support) and Chaitanya Belekar
+(odom/body_link TF change). Docker tooling is not included in this distribution.
+The upstream package.xml declares Apache License 2.0; no standalone LICENSE or
+NOTICE file was present in the inspected upstream snapshot. A full Apache-2.0
+license text is supplied here and in each package. Original public maintainer
+attribution and source notices are retained.
+
+Internship additions by Ozodbek Eshmurodov: downward camera, ROS/Gazebo camera
+bridge, deterministic patterned world/generator, optical-flow and metric odometry,
+tracking diagnostics and interval protocol, synthetic tests and validation tools.
+Distribution changes (2026-11-23): install world/generator, portable default world
+and Gazebo arguments, Harmonic dependency declarations and public documentation.
+Modified upstream files are explicitly marked with change notes.
+No claim is made that third-party code is wholly authored by the intern.
